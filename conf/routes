@@ -1,0 +1,3 @@
+GET     /sync-blocking          controllers.AsyncController.syncBlocking
+GET     /async-blocking         controllers.AsyncController.asyncBlocking
+GET     /async-non-blocking     controllers.AsyncController.asyncNonBlocking
